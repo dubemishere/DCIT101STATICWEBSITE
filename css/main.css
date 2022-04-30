@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.navbar ::before {
+  background: white;
+  padding: 1em;
+
+}
+
+h1 {
+  background: skyblue;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+li{
+  background-size: contain;
+  list-style: none;
+  padding-bottom: 0;
+  padding-left: .1em;
+  margin-bottom: .1em;
+  font-weight: bold;
+  font-size: large;
+}
+
+.hero {
+  background: skyblue;
+  border-radius: 2em;
+  width: 25%;
+  height: 50%;
+  text-align: center;
+  margin-left: 35em;
+  font-weight: bold;
+}
+
+.fashion {
+  background: #dbb659;
+  height: 9em;
+  width: 15%;
+  font-weight: bold;
+  
+}
+.Time{
+  background: #dbb659;
+  height: 9em;
+  width: 20%;
+  font-weight: bold;
+  display: block;
+  margin-left: 50em;
+  margin-top: 0;
+  object-position: 15em;
+  
+}
+.contact{
+  padding-top: 2em;
+  word-spacing: 500px;
+  word-wrap: none;
+}
+.last{
+  background: skyblue;
+}
+.span{
+  background: #dbb659;
+  border-radius: 3em;
+}
+a{
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

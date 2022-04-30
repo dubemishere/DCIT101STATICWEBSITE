@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    background: #f2f2f2;
+    margin:0;
+    font-family:'Poppins';
+}
+.navbar{
+    background: white;
+    padding: 1em;
+
+}
+h1{
+    background: skyblue;
+    border-radius: 0.5em;
+    text-align: center;
+}
+.navbar{
+    list-style: none;
+    padding-bottom: 0;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    position: relative;
+    
+    &:before{
+        content:'' ;left: -2em ;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-image: url(C:\Users\HP\Desktop\A DUBEM\images\Checkmark.svg);
+        background-size: contain;
+        margin-right: .5em;
+
+
+}
+.hero{
+    background: skyblue;
+    border-radius: 2em;
+    width: 29%;
+    text-align: center;
+    margin-left: 35em;
+    font-weight: bold ;
+}
+
